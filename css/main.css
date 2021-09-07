@@ -903,7 +903,8 @@ form .button-area {
   align-items: center;
 }
 
-.button-area button {
+.button-area button,
+.btn-load {
   color: #fff;
   border: none;
   outline: none;
@@ -917,7 +918,8 @@ form .button-area {
   margin-left: 25vh;
 }
 
-.button-area button:hover {
+.button-area button:hover,
+.btn-load:hover {
   background: #025ce3;
 }
 
@@ -961,7 +963,8 @@ form .button-area {
     flex-direction: column;
   }
 
-  .button-area button {
+  .button-area button,
+  .btn-load {
     width: 100%;
     padding: 11px 0;
     font-size: 16px;
